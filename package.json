@@ -1,0 +1,22 @@
+{
+  "name": "advent-of-code-2016",
+  "version": "1.0.0",
+  "description": "Assignment for coding exercise",
+  "main": "utils.js",
+  "scripts": {
+    "test": "nyc mocha ./**/*.test.js --reporter spec",
+    "lint": "./node_modules/.bin/eslint ./ --cache && echo 'No issues found!'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "mocha": "^7.2.0",
+    "mocha-testcheck": "^1.0.0-rc.0",
+    "nyc": "^15.1.0",
+    "testcheck": "^1.0.0-rc.2"
+  }
+}
